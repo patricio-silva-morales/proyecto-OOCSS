@@ -1,0 +1,18 @@
+/* Skin por defecto del botón */
+.btn-primary {
+    background: #446696;
+    color: #fff;
+}
+
+/* Botón alternativo */
+.btn-secondary {
+    background: #FFBD4D;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Card destacada (skin) */
+.card-highlight {
+    border: 2px solid #FFBD4D;
+    background: #FFF6DE;
+}

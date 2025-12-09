@@ -1,0 +1,35 @@
+/* Contenedor básico reutilizable */
+.box {
+    padding: 20px;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+/* Card solo define estructura, no apariencia */
+.card {
+    background: #fff;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tipografía base */
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Botón base */
+.button {
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
